@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "titanic_project"
+version = "0.0.1"
+authors = [
+    {name = "Morella Cantos", email = "cantosmorella@gmail.com"},
+]
+description = "Analysis of the Titanic dataset"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = ["pandas", "numpy", "seaborn"]
